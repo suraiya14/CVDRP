@@ -1,3 +1,4 @@
+# Cardiovascular Disease Risk Prediction (CVDPRP)
 **CVFS.py** - Implements a cross-validation-based feature selection method.
 
 **HFE.ipynb** - Implements a hypergraph feature selection method.
@@ -8,6 +9,6 @@
 
 **Split the data into training and testing sets. R** - To split data into training and testing.
 
-**validate_train_data** - training data set 
+**validate_train_data.csv** - training dataset 
 
-**validate_test_data** - testing data set
+**validate_test_data.csv** - testing dataset
