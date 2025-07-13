@@ -1,4 +1,4 @@
-# Cardiovascular Disease Risk Prediction (CVDPRP)
+# Cardiovascular Disease Risk Prediction (CVDRP)
 **CVFS.py** - Implements a cross-validation-based feature selection method.
 
 **HFE.ipynb** - Implements a hypergraph feature selection method.
