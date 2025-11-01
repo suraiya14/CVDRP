@@ -1,6 +1,8 @@
 # CVDRP — Cardiovascular Disease Risk Prediction
 
-End-to-end, reproducible experiments for cardiovascular disease (CVD) risk prediction.  
+This repository provides the full workflow, datasets, and scripts used in the study:
+“Web-Based Cardiovascular Disease Risk Prediction Using Machine Learning”
+The project introduces an integrated framework combining feature evaluation using Pearson correlation + chi-squared filtering, alternative decision tree, cross-validation-based (CVFS), and hypergraph-based (HFE) approaches to enhance prediction performance.  
 This repository includes:
 
 - **Feature selection**
