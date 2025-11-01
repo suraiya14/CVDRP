@@ -75,7 +75,25 @@ install.packages(c("data.table","e1071","xgboost","randomForest","ggplot2"))
 
 ## Feature selection
 
-### 1) Cross-Validation Feature Evaluation (CVFE)
+### 1) Pearson correlation + Chi-squared test
+
+Pearson’s correlation was used to identify highly correlated continuous features (r > 0.9), and one feature from each correlated pair was removed. Chi-squared tests were applied to categorical variables, retaining only pairs with significant associations (p < 0.001):
+
+```bash
+pearsoncorrelation_chi-squared_test.R
+
+```
+
+### 2) Alternative Decision Tree
+
+Randomly selected values for B=50
+```bash
+adt.R
+```
+
+---
+
+### 3) Cross-Validation Feature Evaluation (CVFE)
 
 Run CVFE to rank features:
 
@@ -85,7 +103,7 @@ python cvfe.py
 
 - Output: check `cvfe.csv` for ranked features or scores.
 
-### 2) Hypergraph Feature Evaluation (HFE)
+### 4) Hypergraph Feature Evaluation (HFE)
 
 Launch the notebook and run cells sequentially:
 
