@@ -1,14 +1,9 @@
-# Cardiovascular Disease Risk Prediction (CVDRP)
-**CVFS.py** - Implements a cross-validation-based feature selection method.
+# CVDRP (Cardiovascular Disease Risk Prediction)
 
-**HFE.ipynb** - Implements a hypergraph feature selection method.
+## 🚀 Overview
+CVDRP implements multiple machine learning and feature selection techniques for predicting cardiovascular disease (CVD) risk.  
+The goal is to evaluate and compare feature selection methods—such as cross-validation-based feature evaluation (CVFE) and Hypergraph Feature Evaluation (HFE)—and build interpretable, high-performing predictive models.
 
-**SHAP_code** – SHAP (SHapley Additive exPlanations) value analysis tool.
+---
 
-**ADT.R**- To perform alternating decision tree analysis.
-
-**Split the data into training and testing sets. R** - To split data into training and testing.
-
-**validate_train_data.csv** - training dataset 
-
-**validate_test_data.csv** - testing dataset
+## 📁 Repository Structure
