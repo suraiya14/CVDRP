@@ -1,25 +1,15 @@
-# CVDRP (Cardiovascular Disease Risk Prediction)
+# CVDRP — Cardiovascular Disease Risk Prediction
 
-## 🚀 Overview
-CVDRP implements multiple machine learning and feature selection techniques for predicting cardiovascular disease (CVD) risk.  
-The goal is to evaluate and compare feature selection methods—such as cross-validation-based feature evaluation (CVFE) and Hypergraph Feature Evaluation (HFE)—and build interpretable, high-performing predictive models.
+CVDRP is a reproducible pipeline for building and evaluating machine-learning models to predict cardiovascular disease (CVD) risk from clinical and demographic features.
+
+> Repo: https://github.com/suraiya14/CVDRP
+
+## Highlights
+- End-to-end data workflow: load → clean → split → train → explain.
+- Baseline models (e.g., Logistic Regression, Random Forest, XGBoost).
+- Model explainability (e.g., SHAP) and metric reporting (AUROC, AUPRC, F1).
+- Lightweight CLI tool `readfile.py` to quickly **peek** any dataset (CSV/TSV/Excel/JSON) with schema and missing-value summary.
 
 ---
 
-## 📁 Repository Structure
-
-```text
-CVDRP/
-│
-├── adt.R                               # Alternating Decision Tree (ADT) model in R
-├── cvfe.csv                            # Output of CVFE feature selection
-├── cvfe.py                             # Python implementation of Cross-Validation Feature Evaluation
-├── hfe.ipynb                           # Jupyter Notebook implementing Hypergraph Feature Evaluation
-├── pearsoncorrelation_chi-squared_test.R  # Correlation and Chi-squared test (exploratory)
-├── rf.R                                # Random Forest model (R)
-├── svm.R                               # Support Vector Machine model (R)
-├── xgboost.R                           # XGBoost classifier (R)
-├── traindata.csv                       # Training dataset
-├── testdata.csv                        # Test/validation dataset
-└── README.md                           # This file
----
+## Project Structure
