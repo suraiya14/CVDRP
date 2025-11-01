@@ -23,3 +23,30 @@ CVDRP/
 ├── testdata.csv                        # Test/validation dataset
 └── README.md                           # This file
 
+
+---
+
+## 🧪 Key Components
+
+- **Feature Selection**
+  - `cvfe.py`: Cross-validation-based feature selection pipeline.
+  - `hfe.ipynb`: Hypergraph Feature Evaluation to identify feature interactions.
+  
+- **Exploratory Analysis**
+  - `pearsoncorrelation_chi-squared_test.R`: Performs statistical tests for feature correlation and significance.
+  
+- **Classification Models**
+  - `adt.R`, `rf.R`, `svm.R`, `xgboost.R`: Machine learning models implemented in R to classify CVD risk.
+
+- **Data Files**
+  - `traindata.csv`: Training dataset.
+  - `testdata.csv`: Testing/validation dataset.
+
+---
+
+## 🎯 Usage Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/suraiya14/CVDRP.git
+cd CVDRP
