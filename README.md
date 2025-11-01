@@ -22,8 +22,6 @@ CVDRP/
 ├── traindata.csv                       # Training dataset
 ├── testdata.csv                        # Test/validation dataset
 └── README.md                           # This file
-
-
 ---
 
 ## 🧪 Key Components
