@@ -154,19 +154,18 @@ Rscript pearsoncorrelation_chi-squared_test.R
 
 ---
 
-## License
-
-No license is currently specified in this repository. Add one (MIT, BSD-3-Clause, or Apache-2.0) if public use is intended.
-
----
 
 ## Citation
 
-If you use this code, please cite the repository and related publication(s).
+Explore and run predictions using the interactive web app:
+🔗 Bacteriocin Prediction Web Application
+
+If you find our web application useful, please consider citing the following works:
+
+Akhter, S. and Miller, J.H., 2025. Evaluating Feature Selection Methods and Feature Contributions for Cardiovascular Disease Risk Prediction. 
+medRxiv, pp.2025-07..
 
 ---
 
-## Acknowledgments
 
-Thanks to the maintainers and contributors of the Python and R ecosystems leveraged here.
 
