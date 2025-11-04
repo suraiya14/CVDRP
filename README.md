@@ -18,8 +18,6 @@ This repository includes:
 - **Example data**
   - `traindata.csv`, `testdata.csv` (example training/testing splits).
 
-> Note: The older README snippet on GitHub references `CVFS.py`, `HFE.ipynb`, and “validate_*” CSVs; the current repository file names are `cvfe.py`, `hfe.ipynb`, and `train/testdata.csv` respectively.
-
 ---
 
 ## Repository structure
