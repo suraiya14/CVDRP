@@ -75,7 +75,7 @@ install.packages(c("data.table","e1071","xgboost","randomForest","ggplot2"))
 
 ### 1) Pearson correlation + Chi-squared test
 
-Pearson’s correlation was used to identify highly correlated continuous features (r > 0.9), and one feature from each correlated pair was removed. Chi-squared tests were applied to categorical variables, retaining only pairs with significant associations (p < 0.001):
+Pearson’s correlation was used to identify highly correlated continuous features (r >= 0.9), and one feature from each correlated pair was removed. Chi-squared tests were applied to categorical variables, retaining only pairs with significant associations (p <= 0.001):
 
 ```bash
 pearsoncorrelation_chi-squared_test.R
@@ -145,10 +145,9 @@ Rscript pearsoncorrelation_chi-squared_test.R
 ## Workflow
 
 1. Prepare `traindata.csv` / `testdata.csv`
-2. Run feature selection (`cvfe.py` / `hfe.ipynb`)
-3. Optional: univariate screening (`pearsoncorrelation_chi-squared_test.R`)
-4. Train & evaluate (`rf.R`, `svm.R`, `xgboost.R`, `adt.R`)
-5. Compare results (AUC, accuracy, F1, etc.)
+2. Run feature selection (`pearsoncorrelation_chi-squared_test.R` / `adt.R` / `cvfe.py` / `hfe.ipynb`)
+3. Train & evaluate (`rf.R`, `svm.R`, `xgboost.R`)
+4. Compare results (AUC, accuracy, F1, etc.)
 
 ---
 
