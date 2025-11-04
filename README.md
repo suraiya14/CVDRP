@@ -130,16 +130,6 @@ Rscript svm.R
 Rscript xgboost.R
 ```
 
-### Alternating Decision Tree
-```bash
-Rscript adt.R
-```
-
-### Correlation & χ² screening
-```bash
-Rscript pearsoncorrelation_chi-squared_test.R
-```
-
 ---
 
 ## Workflow
