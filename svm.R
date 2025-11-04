@@ -547,7 +547,7 @@ if (length(keep_vars) > 0) {
 
 
 # -------------------------------------------------
-# 14. (Optional) Save predictions
+# 12. (Optional) Save predictions
 # -------------------------------------------------
 # out <- data.frame(Actual = truth, Prob_1 = probs, Predicted = pred_cls)
 # write.csv(out, "svm_predictions_tuned.csv", row.names = FALSE)
