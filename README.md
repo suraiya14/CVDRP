@@ -155,7 +155,7 @@ Rscript pearsoncorrelation_chi-squared_test.R
 ## Citation
 
 Explore and run predictions using the interactive web app:
-🔗 Bacteriocin Prediction Web Application
+[🔗 Cardiovascular Disease Risk Prediction Web Application](https://shiny.tricities.wsu.edu/cvdr-prediction/)
 
 If you find our web application useful, please consider citing the following works:
 
