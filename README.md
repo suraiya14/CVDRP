@@ -9,12 +9,12 @@ This repository includes:
   - `cvfe.py`: Cross-validation–based feature evaluation (CVFE).
   - `hfe.ipynb`: Hypergraph-based feature evaluation (HFE).
   - `cvfe.csv`: Example/derived feature-ranking output.
+  - `pearsoncorrelation_chi-squared_test.R` – Pearson correlation & χ² screening.
 - **Model training (R)**
   - `rf.R` – Random Forest
   - `svm.R` – Support Vector Machine
   - `xgboost.R` – XGBoost
   - `adt.R` – Alternating Decision Tree
-  - `pearsoncorrelation_chi-squared_test.R` – Pearson correlation & χ² screening
 - **Example data**
   - `traindata.csv`, `testdata.csv` (example training/testing splits).
 
