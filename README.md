@@ -149,8 +149,11 @@ Explore and run predictions using the interactive web app:
 
 If you find our web application useful, please consider citing the following works:
 
-Akhter, S. and Miller, J.H., 2025. Evaluating Feature Selection Methods and Feature Contributions for Cardiovascular Disease Risk Prediction. 
-medRxiv, pp.2025-07..
+Akhter, S. and Miller, J.H., Web-Based Cardiovascular Disease Risk Prediction Using Machine Learning. Frontiers in Artificial Intelligence, 9, p.1690664.
+
+## Data Availability Statement
+
+The dataset analyzed in this study was obtained from the National Health and Nutrition Examination Survey (NHANES) and is publicly available at https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023. The processed datasets used in this study are available in the CVDRP repository at https://github.com/suraiya14/CVDRP. Further inquiries may be directed to the corresponding author (Email: suraiya.china@gmail.com).
 
 ---
 
