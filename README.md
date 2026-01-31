@@ -153,7 +153,7 @@ Akhter, S. and Miller, J.H., Web-Based Cardiovascular Disease Risk Prediction Us
 
 ## Data Availability Statement
 
-The dataset analyzed in this study was obtained from the National Health and Nutrition Examination Survey (NHANES) and is publicly available at https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023. The processed datasets used in this study are available in the CVDRP repository at https://github.com/suraiya14/CVDRP. Further inquiries may be directed to the corresponding author (Email: suraiya.china@gmail.com).
+The dataset analyzed in this study was obtained from the National Health and Nutrition Examination Survey (NHANES) and is publicly available at https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023. The processed datasets used in this study are available in this repository. Further inquiries may be directed to the corresponding author (Email: suraiya.china@gmail.com).
 
 ---
 
